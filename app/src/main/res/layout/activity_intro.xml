@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scn_yp_intro"
+    tools:context="com.durandroid.ht.yelp.IntroActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="504dp"
+        android:alpha="0"
+        android:onClick="onLogin"
+        android:text="Button"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="232dp"
+        android:layout_y="505dp"
+        android:alpha="0"
+        android:text="Button"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="502dp" />
+</AbsoluteLayout>
